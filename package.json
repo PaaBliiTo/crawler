@@ -1,0 +1,20 @@
+{
+    "name": "crawler",
+    "version": "1.0.0",
+    "description": "Web Crawler",
+    "main": "crawler.js",
+    "scripts": {
+        "start": "nodemon --debug ./crawler.js"
+    },
+    "author": "Fabio Benoit",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "cheerio": "^0.22.0",
+        "ejs": "^2.5.5",
+        "express": "^4.14.0",
+        "request": "^2.79.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
