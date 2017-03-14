@@ -28,8 +28,11 @@ Steps:
 
 5. Nothing happens on the browser. That's normal. Now take a look at your command prompt window. The JSON object with every reachable page and every static asset should appear !
 
+__WARNING__ : You can't do another crawl right away. If you want to, you need to kill the node in the command prompt (hit `Ctrl + C` on Windows) and then relaunch it by writing again `node crawler.js`
+
 ## Important things
 
 - For unknown reasons, some scripts assets are not considered by the crawler, so they might not appear in the output.
+- The crawler was made in a short time due to other school projects. A lot of things can be optimized (and will be, if I have enough time after school), such as error handling or being able to do another crawl right away.
 - As requested, the crawler does not cross subdomains and doesn't pick external links (social media links present on the page for example)
 - Crawler made for [GoCardless](https://www.gocardless.com)
