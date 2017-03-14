@@ -17,10 +17,15 @@ You now have all the files needed !
 The program includes a really basic user interface. Once the node is launched, you won't have to type anything into the command prompt to have a result. Everything else has to be done in your browser.
 
 Steps:
+
 1. Run `node crawler.js` in the command prompt to launch the node. If everything works, you should see the message 'App listening on port 8000. Open localhost:8000 in your browser'. __WARNING__ : Never close the command prompt window !! (or the node will be stopped)
+
 2. Open your browser and go to the adress [localhost:8000](localhost:8000)
+
 3. Here, enter the website URL you want to crawl in the textbox (make sure there is no mistake in the URL, as there is almost no error handling). ___Good URL format example :___ `https://www.google.com` (don't forget the https:// or the request might fail)
+
 4. Hit the 'Crawl !' button
+
 5. Nothing happens on the browser. That's normal. Now take a look at your command prompt window. The JSON object with every reachable page and every static asset should appear !
 
 ## Important things
