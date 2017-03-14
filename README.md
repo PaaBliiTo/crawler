@@ -33,6 +33,6 @@ __WARNING__ : You can't do another crawl right away. If you want to, you need to
 ## Important things
 
 - For unknown reasons, some scripts assets are not considered by the crawler, so they might not appear in the output.
-- The crawler was made in a short time due to other school projects. A lot of things can be optimized (and will be, if I have enough time after school), such as error handling or being able to do another crawl right away.
+- The crawler was made in a short time due to other school projects. A lot of things can be optimized (and will be, if I have enough time after school), such as error handling.
 - As requested, the crawler does not cross subdomains and doesn't pick external links (social media links present on the page for example)
 - Crawler made for [GoCardless](https://www.gocardless.com)

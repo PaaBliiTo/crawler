@@ -195,5 +195,8 @@ function insertAssets(assetsArray, iteration) {
 	//When evey callback is finished (i.e. callbackCount=0), STDOUT the JSON array
 	if(callbackCount === 0) {
 		console.log(websitesJSON);
+
+		//reset the JSON array to be able to do another crawl right away
+		websitesJSON = [];
 	}
 }
